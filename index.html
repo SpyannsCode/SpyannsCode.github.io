@@ -3,70 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <title>SpyannsCode HTML Portal</title>
+	<style>
+		.navbar{
+		overflow: hidden;
+		background-image: url('im_not_sure_what_this_is.gif');
+		background-size: cover;		
+		display: block;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+		}
+		
+		.navbar a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		.navbar a:hover {
+		  background: #ddd;
+		  color: black;
+		}
+		body {
+		  margin-top: 50px;
+		}
+	</style>
 </head>
+<div class="navbar">
+<nav>
+		<a href="#title">Title</a>
+		<a href="#about">About This</a>
+		<a href="#easttown">EastTown</a>
+			<a href="#easttown_devlinks">EastTown Developer Links</a>
+			<a href="#easttown_database">EastTown Database Links</a>
+			<a href="#easttown_extra">EastTown Extra Notes</a>
+		<a href="#projectyerogrid">Project: YeroGrid</a>
+			<a href="GamePages/ProjectYeroGrid.html">Project: YeroGrid About</a>
+			<a href="#projectyerogrid_devlinks">Project: YeroGrid Developer Links</a>
+			<a href="#projectyerogrid_playtesterlinks">Project: YeroGrid Playtester Links</a>
+</nav>
+</div>
 <body>
-	<h1><center>EastTown and Project:YeroGrid HTML Portal</center></h1>
+	<h1 id="title"><center>EastTown and Project:YeroGrid HTML Portal</center></h1>
 	<h6><center>The most generic HTML portal out there currentlly, probably.</center></h6>
+
+	
 	<hr></hr>
-		<h2>About this:</h2>
+	
+	<h2 id="about">About this:</h2>
 			<p>This is meant mostly for people working on these projects, altough I don't think anyone else could get use out of this. Both Project:YeroGrid and EastTown have downloadable links on Google Drive, and if you're here, I'm going to assume you already know about this.</p>
 			<p>	This page aims to only show a couple of links for each project that is currently being worked on, and as this isn't made for the public, do not expect more convenient things from this.</p>
 			<li><p>Pretty much nay project ( started after Project:YeroGrid ) that has been worked on long enough will have a section here. Some projects that have been worked on for longer might even have their own special page, which you can access by clicking on the project title if it is a hyperlink. Or, of course, just use Github to navigate it.</p></li>
 			<p>However, not all projects that should have a page will have one. For example, I will most probably make a page for Project:YeroGrid to exercise my HTML skills a bit more, but EastTown won't have one since it is not necessarry, nor is it developed enough to have something more than a basic description.</p>
 			
-		<hr></hr>
-		
-		<h2><center>Browse the files on <a target="_blank" href="https://github.com/SpyannsCode/SpyannsCode.github.io/tree/vanilla">it's Github page.</a></center><h2>
 	<hr></hr>
-	<li></li>
+	
+	
 	<section>
 	
-	 <h2><center>EastTown</center></h2>
-	 
-	<li></li>
+	 <h2 id="easttown"><center>EastTown</center></h2>
 	
 	 <hr></hr>
 	 
-	 <h3>EastTown Developer Links</h3>
-	 
-		<li><a target="_blank" href="https://github.com/SpyannsCode/EastTown">EastTown Client Github Repository</a></li>
+	 <h3 id="easttown_devlinks">EastTown Developer Links</h3>
+		<ul>
+			<li><a target="_blank" href="https://github.com/SpyannsCode/EastTown">EastTown Client Github Repository</a></li>
+		</ul>
 		
-	<li></li>
+
 	 <hr></hr>
-	 <h3>EastTown Database Links</h3>
-	 
-		<li><a target="_blank" href="https://easttownbackend.onrender.com/game">EastTown Root Site</a></li>
-		<li><a target="_blank" href="https://easttownbackend.onrender.com/game/players">EastTown Players Site</a></li>
-		<li><a target="_blank" href="https://easttownbackend.onrender.com/game/towns">EastTown Towns Site</a></li>
-		
-	<li></li>
+	 <h3 id="easttown_database">EastTown Database Links</h3>
+		<ul>
+			<li><a target="_blank" href="https://easttownbackend.onrender.com/game">EastTown Root Site</a></li>
+			<li><a target="_blank" href="https://easttownbackend.onrender.com/game/players">EastTown Players Site</a></li>
+			<li><a target="_blank" href="https://easttownbackend.onrender.com/game/towns">EastTown Towns Site</a></li>
+		</ul>
 	 <hr></hr>
 	 
-	 <h3>Extra Notes</h3>
-	 
-		<li><p>Buildings belonging to a certain town can be found at /game/towns/{id}/buildings</p></li>
-		
+	 <h3 id="easttown_extra">Extra Notes</h3>
+		<p>Buildings belonging to a certain town can be found at /game/towns/{id}/buildings</p>
 	</section>
 	<hr></hr>
-	<li></li>
 	
 	<section>
-	 <h2><center><a href="GamePages/ProjectYeroGrid.html">Project:YeroGrid</a></center></h2>
-	<li></li>
+	 <h2 id="projectyerogrid"><center><a href="GamePages/ProjectYeroGrid.html">Project:YeroGrid</a></center></h2>
 	 <hr></hr>
 	 
-	 <h3>Developer Links</h3>
-	 
-		<li><a target="_blank" href="https://app.superthread.com/spyannindustries/space-2/boards">SuperThread Board</a></li>   
-		<li><a target="_blank" href="https://github.com/SpyannsCode/Project--Yero">Github Repository</a></li>
-	 <li></li>
+	 <h3 id="projectyerogrid_devlinks">Developer Links</h3>
+		<ul>
+			<li><a target="_blank" href="https://app.superthread.com/spyannindustries/space-2/boards">SuperThread Board</a></li>   
+			<li><a target="_blank" href="https://github.com/SpyannsCode/Project--Yero">Github Repository</a></li>
+		</ul>
 	 <hr></hr>
 	 
-	 <h3>Playtester Links</h3>
-	 
-		<li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdP_KwP9CuKY5orlxLxmtgkIkFHQyfkZZyOElWMjeSrGW99DQ/viewform?usp=sharing&ouid=105687965427496096566">Google Form</a></li>   
+	 <h3 id="projectyerogrid_playtesterlinks">Playtester Links</h3>
+		<ul>
+			<li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdP_KwP9CuKY5orlxLxmtgkIkFHQyfkZZyOElWMjeSrGW99DQ/viewform?usp=sharing&ouid=105687965427496096566">Google Form</a></li>   
+		</ul>
 		
-	 <li></li>
 	 <hr></hr>
 	</section>
   </body>
