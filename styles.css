@@ -1,0 +1,42 @@
+.navbar{
+overflow: hidden;
+background-image: url('Assets/navbar.gif');
+background-size: cover;		
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.figure_list {
+  list-style-type: none;
+  text-align: center;
+}
+figure {
+  display: inline-block;  
+  position: relative;
+}
+
+figcaption{
+   background-color: white;
+   opacity: 0.5;
+   position: absolute;
+   bottom: 0px;
+   left: 0; 
+   right:0
+}
+body {
+  margin-top: 70px;
+}
