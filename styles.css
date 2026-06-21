@@ -7,7 +7,10 @@ top: 0;
 width: 100%;
 z-index: 101;
 }
-
+.image_gallery {
+	background: darkgray;
+	width: 100%;
+}
 .navbar a {
   float: left;
   display: block;
@@ -32,7 +35,7 @@ figure {
 
 figcaption{
    background-color: white;
-   opacity: 0.5;
+   opacity: 0.75;
    position: absolute;
    bottom: 0px;
    left: 0; 
