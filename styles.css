@@ -8,7 +8,8 @@ width: 100%;
 z-index: 101;
 }
 .image_gallery {
-	background: darkgray;
+	background-image: url('Assets/Images/image_test.png');
+	background-size: cover;
 	width: 100%;
 }
 .navbar a {
