@@ -8,7 +8,7 @@ width: 100%;
 z-index: 101;
 }
 .image_gallery {
-	background-image: url('Assets/Images/image_test.png');
+	background-image: url('Assets/Images/something.png');
 	background-size: cover;
 	width: 100%;
 }
