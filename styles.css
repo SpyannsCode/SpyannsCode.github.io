@@ -1,11 +1,11 @@
 .navbar{
-overflow: hidden;
-background-image: url('Assets/navbar.gif');
-background-size: cover;		
-position: fixed;
-top: 0;
-width: 100%;
-z-index: 101;
+	overflow: hidden;
+	background-image: url('Assets/navbar.gif');
+	background-size: cover;		
+	position: fixed;
+	width: 100%;
+	z-index: 101;
+	top: 0;
 }
 .image_gallery {
 	background-image: url('Assets/Images/something.png');
@@ -43,5 +43,7 @@ figcaption{
    right:0
 }
 body {
-  margin-top: 70px;
+	margin-top: 10;
+    margin-left: 0;
+    margin-right: 0;
 }
