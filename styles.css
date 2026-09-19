@@ -46,4 +46,23 @@ body {
 	margin-top: 10;
     margin-left: 0;
     margin-right: 0;
+	background-color: black;
+}
+p, h1, h2, h3, h4, h5, h6, li { 
+	color: white;
+}
+
+.button-grid {
+	display: grid;
+	grid-template-columns: 1fr 0fr;
+	gap: 3px;
+	padding: 10px;
+	
+}
+
+.button-grid button {
+	cursor: pointer;
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
 }
