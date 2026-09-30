@@ -1,0 +1,50 @@
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+body {
+	margin-top: 10;
+    margin-left: 0;
+    margin-right: 0;
+	background-color: black;
+}
+p, h1, h2, h3, h4, h5, h6, li { 
+	color: white;
+}
+
+.button-grid {
+	display: grid;
+	grid-template-columns: 1fr 0fr;
+	gap: 3px;
+	padding: 10px;
+}
+
+.jolly_green {
+  color: green;
+}
+
+.jolly_red {
+  color: red;
+}
+
+.normal {
+  color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+.button-grid button {
+	cursor: pointer;
+	background-color: white;
+	border-width: 0px;
+	padding: 1px;
+}

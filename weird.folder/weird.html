@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="UTF-8">
+    <title>spyannsCode-html-portal</title>
+	<link rel=stylesheet href="weird.css">
+	<script src="weird.js" defer></script>
+</head>
+<body>
+
+	<div class="title_container"><center>
+	
+		<h1 id="title">weird.html</h1>
+		
+		<button type="button" onclick="toggle_settings()" id="settings_button">Toggle Settings Menu</button>
+		
+		<div id="settings">
+		
+			<hr></hr>
+		
+			<table>
+				<tr>
+				
+					<th>
+						<p>Title Settings</p>
+					</th>			
+					<th>
+						<p>Site Settings</p>
+					</th>
+					
+				</tr>
+				
+				<tr>
+				
+					<th>
+						<button type="button" onclick="normal_text()">Normal</button>
+					</th>
+					
+				
+					<th>
+						<button type="button" onclick="save()">Save</button>
+					</th>
+					
+				</tr>	
+				
+				<tr>
+				
+					<th>
+						<button type="button" onclick="jolly_text()">Christmas</button>
+					</th>
+					
+					<th>
+						<button type="button" onclick="load()">Load Previous Save</button>
+					</th>
+					
+				
+				<tr>
+				
+					<th>
+					</th>
+					
+					<th>
+						<button type="button" onclick="wipe_save_data()">Wipe Save Data</button>
+					</th>
+					
+					<th>
+					</th>
+					
+				</tr>
+				
+			</table>
+
+		</div>
+	
+	</center></div>
+	
+	<hr></hr>
+	
+	<noscript>
+		<h1>You don't apear to have Javascript enabled. Sorry, but you should probably either go enable it, or use a different browser or device if yours can't handle javascript... After enabling it, please refresh the page.</h1>
+		<h1>Sorry, I suppose?</h1>
+		<hr></hr>
+	</noscript>
+	
+	<h2 id="score">Score: 0</h2>
+	<h2 id="multiplier">Click Multiplier: 1</h2>
+	<h2 id="passive_income">No Passive income</h2>
+	<button type="button" onclick="click_add()">Click!</button>
+	<button type="button" onclick="multiplier_change()" id="multiplier_button">Add +1 to the Multiplier ( Cost: 10 )</button>
+	<button type="button" onclick="passive_income_change()" id="passive_button">Faster Passive Income ( Cost: 10 )</button>
+</body>
+</html>
