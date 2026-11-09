@@ -1,3 +1,8 @@
+.title{
+	background-image: url('./Assets/Images/test.gif');
+	background-size: cover;		
+}
+
 .navbar{
 	overflow: hidden;
 	background-image: url('Assets/navbar.gif');
